@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/rooms
+Content-Type: application/json
+
+{
+  "theme": "this is a test room"
+}
+
+### 
+
+POST http://localhost:8080/api/rooms/f6ee97c4-741f-44d7-a2c3-68152abf6c12/messages
+Content-Type: application/json
+
+{
+  "message": "this is a test message 2"
+}
+
+### 
+
+GET http://localhost:8080/api/rooms
+Content-Type: application/json
